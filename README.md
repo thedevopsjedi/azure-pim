@@ -6,9 +6,9 @@ This repository contains a script to configure Privileged Identity Management (P
 
 I was recently asked to automate the onboarding of Azure Resource Groups to PIM via Azure DevOps.  This involved configuring the role management policy, and assigning the role as eligible to a group.
 
-After looking into this there wasn't an esy way to do this as terraform does not yet support PIM, and neither does Azure PowerShell or the AZ CLI.  This meant I had use the API.
+After looking into this, there wasn't an easy way to do it as terraform does not yet support PIM, and neither does Azure PowerShell or the AZ CLI.  This meant I had use the API.
 
-The API wasn't fully documented and after working through the different options available I decided to capture them all so if I needed to revisit this in the future everything would be ready to go.
+The API wasn't fully documented, and after working through the different options available I decided to capture them all in the comments so if I needed to revisit this in the future everything would be ready to go.
 
 ## Running The Script
 
